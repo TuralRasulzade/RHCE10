@@ -1,0 +1,13 @@
+$TTL 86400
+@   IN  SOA     ns1.course.local. root.course.local. (
+    20601  ; Serial
+    3600        ; Refresh
+    1800        ; Retry
+    1209600     ; Expire
+    86400 )     ; Minimum TTL
+
+@   IN  NS      ns1.course.local.
+@   IN  NS      ns2.course.local.
+
+141 IN  PTR     course.local.
+
